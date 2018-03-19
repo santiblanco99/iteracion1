@@ -31,7 +31,7 @@ package co.uniandes.sistrans.iteracion1.alohAndes.dtos;
  *
  * @author s.blancoc
  */
-public class HostalDTO {
+public class HostalDTO extends HotelDTO {
     
     private String horarioApertura;
     

@@ -31,7 +31,7 @@ package co.uniandes.sistrans.iteracion1.alohAndes.dtos;
  *
  * @author s.blancoc
  */
-public class HotelDTO {
+public class HotelDTO extends OperadorDTO {
     
     private boolean registroCC;
     

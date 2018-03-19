@@ -15,7 +15,7 @@ public class ViviendaExcepcionalDTO {
     
     private String menaje;
     
-    private Integer seguro;
+    private String seguro;
     
     private Integer numDiasPrestada;
     
@@ -54,14 +54,14 @@ public class ViviendaExcepcionalDTO {
     /**
      * @return the seguro
      */
-    public Integer getSeguro() {
+    public String getSeguro() {
         return seguro;
     }
 
     /**
      * @param seguro the seguro to set
      */
-    public void setSeguro(Integer seguro) {
+    public void setSeguro(String seguro) {
         this.seguro = seguro;
     }
 
