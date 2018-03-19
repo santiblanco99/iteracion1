@@ -7,18 +7,34 @@ package co.uniandes.sistrans.iteracion1.alohAndes.dtos;
 
 /**
  *
- * @author s.blancoc
+ * @author sa.yepes
  */
-public class ServicioDTO {
+public class ClienteDTO {
     
-    protected String nombre;
+    private String vinculacion_u;
     
-    protected Integer costo;
+    private String nombre;
     
-    protected Integer id;
+    private Long doc;
     
-    public ServicioDTO(){
+    private Integer id;
+    
+    public ClienteDTO(){
         
+    }
+
+    /**
+     * @return the vinculacion_u
+     */
+    public String getVinculacion_u() {
+        return vinculacion_u;
+    }
+
+    /**
+     * @param vinculacion_u the vinculacion_u to set
+     */
+    public void setVinculacion_u(String vinculacion_u) {
+        this.vinculacion_u = vinculacion_u;
     }
 
     /**
@@ -36,17 +52,17 @@ public class ServicioDTO {
     }
 
     /**
-     * @return the costo
+     * @return the doc
      */
-    public Integer getCosto() {
-        return costo;
+    public Long getDoc() {
+        return doc;
     }
 
     /**
-     * @param costo the costo to set
+     * @param doc the doc to set
      */
-    public void setCosto(Integer costo) {
-        this.costo = costo;
+    public void setDoc(Long doc) {
+        this.doc = doc;
     }
 
     /**
@@ -62,6 +78,4 @@ public class ServicioDTO {
     public void setId(Integer id) {
         this.id = id;
     }
-    
-    
 }

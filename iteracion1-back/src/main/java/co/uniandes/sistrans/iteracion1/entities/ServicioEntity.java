@@ -3,23 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.uniandes.sistrans.iteracion1.alohAndes.dtos;
+package co.uniandes.sistrans.iteracion1.entities;
 
 /**
  *
- * @author s.blancoc
+ * @author sa.yepes
  */
-public class ServicioDTO {
+public class ServicioEntity extends BaseEntity{
     
-    protected String nombre;
+    private String nombre;
     
-    protected Integer costo;
+    private Integer costo;
     
-    protected Integer id;
     
-    public ServicioDTO(){
-        
-    }
 
     /**
      * @return the nombre
@@ -48,20 +44,4 @@ public class ServicioDTO {
     public void setCosto(Integer costo) {
         this.costo = costo;
     }
-
-    /**
-     * @return the id
-     */
-    public Integer getId() {
-        return id;
-    }
-
-    /**
-     * @param id the id to set
-     */
-    public void setId(Integer id) {
-        this.id = id;
-    }
-    
-    
 }

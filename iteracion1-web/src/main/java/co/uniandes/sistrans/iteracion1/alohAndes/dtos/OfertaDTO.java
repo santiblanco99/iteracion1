@@ -11,4 +11,55 @@ package co.uniandes.sistrans.iteracion1.alohAndes.dtos;
  */
 public class OfertaDTO {
     
+    private Integer id;
+    
+    private Integer costo;
+    
+    private String nombre;
+    
+    public OfertaDTO(){
+        
+    }
+
+    /**
+     * @return the id
+     */
+    public Integer getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the costo
+     */
+    public Integer getCosto() {
+        return costo;
+    }
+
+    /**
+     * @param costo the costo to set
+     */
+    public void setCosto(Integer costo) {
+        this.costo = costo;
+    }
+
+    /**
+     * @return the nombre
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
