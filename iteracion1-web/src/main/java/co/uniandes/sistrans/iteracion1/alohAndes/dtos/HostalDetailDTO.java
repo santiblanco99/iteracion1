@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author s.blancoc
  */
-public class HotelDetailDTO extends HotelDTO {
+public class HostalDetailDTO extends HostalDTO{
     
     private List<HabitacionDTO> habitaciones;
     
@@ -21,7 +21,7 @@ public class HotelDetailDTO extends HotelDTO {
     
     private List <ContratoDTO> contratos;
     
-    public HotelDetailDTO(){
+    public HostalDetailDTO(){
         super();
     }
 
@@ -52,8 +52,7 @@ public class HotelDetailDTO extends HotelDTO {
     public void setServicios(List <ServicioDTO> servicios) {
         this.servicios = servicios;
     }
-
-
+    
 
     /**
      * @return the contratos

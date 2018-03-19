@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.uniandes.sistrans.iteracion1.alohAndes.dtos;
+package co.uniandes.sistrans.iteracion1.resources;
+
 /**
  *
  * @author s.blancoc
  */
-public class OperadorDetailDTO extends OperadorDTO {
-    
-    
-    public OperadorDetailDTO(){
-        super();
-    }
-    
+public class PersonaNaturalResource {
     
 }

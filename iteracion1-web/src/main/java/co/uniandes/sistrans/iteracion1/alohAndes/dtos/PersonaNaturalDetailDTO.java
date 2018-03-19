@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author s.blancoc
  */
-public class HotelDetailDTO extends HotelDTO {
+public class PersonaNaturalDetailDTO extends PersonaNaturalDTO{
     
     private List<HabitacionDTO> habitaciones;
     
@@ -21,7 +21,7 @@ public class HotelDetailDTO extends HotelDTO {
     
     private List <ContratoDTO> contratos;
     
-    public HotelDetailDTO(){
+    public PersonaNaturalDetailDTO(){
         super();
     }
 
@@ -53,7 +53,19 @@ public class HotelDetailDTO extends HotelDTO {
         this.servicios = servicios;
     }
 
+    /**
+     * @return the oferta
+     */
+    public OfertaDTO getOferta() {
+        return oferta;
+    }
 
+    /**
+     * @param oferta the oferta to set
+     */
+    public void setOferta(OfertaDTO oferta) {
+        this.oferta = oferta;
+    }
 
     /**
      * @return the contratos
@@ -67,20 +79,6 @@ public class HotelDetailDTO extends HotelDTO {
      */
     public void setContratos(List <ContratoDTO> contratos) {
         this.contratos = contratos;
-    }
-
-    /**
-     * @return the oferta
-     */
-    public OfertaDTO getOferta() {
-        return oferta;
-    }
-
-    /**
-     * @param oferta the oferta to set
-     */
-    public void setOferta(OfertaDTO oferta) {
-        this.oferta = oferta;
     }
     
     
