@@ -25,7 +25,6 @@ package co.uniandes.sistrans.iteracion1.exceptions;
 
 import javax.ejb.ApplicationException;
 
-
 /**
  * Expeción utilizada para representar errores en la lógica de negocio. 
  * Se utiliza para diferenciar los errores externos de aquellos que provienen
