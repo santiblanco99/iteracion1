@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2017 Universidad de los Andes - ISIS2603
+Copyright (c) 2017 ISIS2603
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,10 +26,7 @@ package co.uniandes.sistrans.iteracion1.exceptions;
 import javax.ejb.ApplicationException;
 
 /**
- * Expeción utilizada para representar errores en la lógica de negocio. 
- * Se utiliza para diferenciar los errores externos de aquellos que provienen
- * de condiciones que no se cumplen, como IDs repetidos, atributos necesarios,
- * operaciones prohibidas o sin autorización entre otros.
+ *
  * @author ISIS2603
  */
 @ApplicationException(rollback = true)
