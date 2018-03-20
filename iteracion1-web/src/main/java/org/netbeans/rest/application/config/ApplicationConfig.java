@@ -30,6 +30,7 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(co.uniandes.sistrans.iteracion1.resources.ClienteResource.class);
+        resources.add(co.uniandes.sistrans.iteracion1.resources.HabitacionResource.class);
         resources.add(co.uniandes.sistrans.iteracion1.resources.HotelResource.class);
         resources.add(co.uniandes.sistrans.iteracion1.resources.OperadorResource.class);
     }

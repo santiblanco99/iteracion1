@@ -26,6 +26,7 @@ co\uniandes\sistrans\iteracion1\alohAndes\dtos\ViviendaExcepcionalDetailDTO.clas
 co\uniandes\sistrans\iteracion1\alohAndes\dtos\OfertaDetailDTO.class
 co\uniandes\sistrans\iteracion1\alohAndes\dtos\HostalDetailDTO.class
 co\uniandes\sistrans\iteracion1\alohAndes\dtos\ViviendaUniversitariaDetailDTO.class
+co\uniandes\sistrans\iteracion1\resources\HabitacionResource.class
 co\uniandes\sistrans\iteracion1\resources\PersonaNaturalResource.class
 co\uniandes\sistrans\iteracion1\alohAndes\dtos\HabitacionDetailDTO.class
 co\uniandes\sistrans\iteracion1\resources\HotelResource.class
